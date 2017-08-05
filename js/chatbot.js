@@ -47,6 +47,8 @@ ChatBot.bindErrorHandlers = function () {
     }
 };
 
+
+
 ChatBot.bindUserActions = function () {
     //Both the "Enter" key and clicking the "Send" button will send the user's message
     $('.chat-input').keypress(function (event) {
